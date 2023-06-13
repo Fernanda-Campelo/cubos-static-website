@@ -1,0 +1,87 @@
+.portfolio-selected {
+    color: #5FB4A2;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1015px;
+    margin-top: 80px;
+}
+
+section img {
+    width: 540px;
+    height: 500px;
+}
+
+section h1 {
+    width: 350px;
+    height: 42px;
+    margin-bottom: 28px;
+
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    
+    letter-spacing: -0.357143px;
+    
+    color: #33323D;
+}
+
+section p {
+    width: 350px;
+    height: 120px;
+    margin-bottom: 54px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    
+    color: #33323D;
+}
+
+.subsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 500px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.manage {
+    height: 500px;
+    margin-top: 94px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 176px;
+    height: 48px;
+    border: 1px solid black;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+
